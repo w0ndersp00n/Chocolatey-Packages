@@ -1,2 +1,2 @@
 # Chocolatey-Packages
-Mu Chocolatey Packages
+My Chocolatey Packages
