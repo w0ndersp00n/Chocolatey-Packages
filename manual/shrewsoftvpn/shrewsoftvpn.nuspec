@@ -7,7 +7,7 @@
     <title>ShrewSoftVpn</title>
     <version>2.2.2</version>
     <authors>Shrew Soft Inc.</authors>
-    <owners>Wicky Rampersad</owners>
+    <owners>w0ndersp00n</owners>
     <summary>ShrewSoftVpn</summary>
     <description>The Shrew Soft VPN Client for Windows is an IPsec Remote Access VPN Client for Windows 2000, XP, Vista and Windows 7/8 operating systems ( 32 and 64 bit versions ). It was originally developed to provide secure communications between mobile Windows hosts and open source VPN gateways that utilize standards compliant software such as ipsec-tools, OpenSWAN, StrongSWAN, Libreswan, isakmpd. It now offers many of the advanced features only found in expensive commercial software and provides compatibility for VPN appliances produced by vendors such as Cisco, Juniper, Checkpoint, Fortinet, Netgear, Linksys, Zywall and many others. </description>
     <projectUrl>http://www.shrew.net/software</projectUrl>
