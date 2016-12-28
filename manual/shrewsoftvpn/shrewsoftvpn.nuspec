@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>shrewsoftvpn</id>
@@ -21,7 +21,7 @@
     These parameters can be passed to the installer with the use of `-params`.
     For example: `-params '"/NODESK /STANDARD"'`.</description>
     <projectUrl>http://www.shrew.net/software</projectUrl>
-    <tags>vpn cisco shrewsoft</tags>
+    <tags>windows vpn ipsec shrewsoft admin</tags>
     <copyright>© 2013 Shrew Soft Inc. </copyright>
     <licenseUrl>https://www.shrew.net/about</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -31,7 +31,7 @@
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>https://www.shrew.net/download/changelog/vpn/2.2.2-release</releaseNotes>
-    <packageSourceUrl>https://github.com/w0ndersp00n/Chocolatey-Packages/tree/master/manual/shrewsoftvpn</packageSourceUrl>
+    <!--packageSourceUrl>https://github.com/w0ndersp00n/Chocolatey-Packages/tree/master/manual/shrewsoftvpn</packageSourceUrl-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
