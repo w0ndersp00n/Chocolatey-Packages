@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>shrewsoftvpn</id>
     <title>Shrew Soft VPN Client</title>
-    <version>2.2.2</version>
+    <version>2.2.2.1</version>
     <authors>Shrew Soft Inc.</authors>
     <owners>w0ndersp00n</owners>
     <summary>Shrew Soft VPN Client</summary>
@@ -20,7 +20,9 @@
     * `/STANDARD` - Install standard edition instead of professional.
     
     These parameters can be passed to the installer with the use of `-params`.
-    For example: `-params '"/NODESK /STANDARD"'`.</description>
+    For example: `-params '"/NODESK /STANDARD"'`.
+    
+    Bump in version number is just for the new package. The developer of the software uses no more than 3 numbers.</description>
     <projectUrl>http://www.shrew.net/software</projectUrl>
     <tags>windows vpn ipsec shrewsoft admin</tags>
     <copyright>© 2013 Shrew Soft Inc. </copyright>
@@ -32,7 +34,8 @@
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>https://www.shrew.net/download/changelog/vpn/2.2.2-release</releaseNotes>
-    <!--packageSourceUrl>https://github.com/w0ndersp00n/Chocolatey-Packages/tree/master/manual/shrewsoftvpn</packageSourceUrl-->
+    <packageSourceUrl>https://github.com/w0ndersp00n/Chocolatey-Packages/tree/master/manual/shrewsoftvpn</packageSourceUrl>
+    <iconUrl>https://i.imgur.com/hMRyCPm.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
