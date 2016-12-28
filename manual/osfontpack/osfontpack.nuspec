@@ -11,7 +11,7 @@
     <summary>Open Source Font Pack (OSFontPack)</summary>
     <description>An installer for selected Open Source Fonts for Windows.</description>
     <projectUrl>https://github.com/texhex/OSFontPack</projectUrl>
-    <tags>hack lato source sans roboto</tags>
+    <tags>hack lato source sans roboto admin</tags>
     <copyright>© 2016 Michael Hex</copyright>
     <licenseUrl>https://raw.githubusercontent.com/texhex/OSFontPack/master/licenses/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

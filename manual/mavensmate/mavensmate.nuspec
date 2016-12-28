@@ -7,7 +7,7 @@
     <title>MavensMate Desktop</title>
     <version>0.0.11-beta7</version>
     <authors>Joe Ferraro</authors>
-    <owners>Wicky Rampersad</owners>
+    <owners>w0ndersp00n</owners>
     <summary>MavensMate Desktop</summary>
     <description>MavensMate is a collection of open source projects that aims to make building Salesforce applications accessible to developers who prefer to build applications using their local machine in text editors like Sublime Text, Atom, and Visual Studio Code.</description>
     <projectUrl>https://github.com/joeferraro/MavensMate-Desktop</projectUrl>
