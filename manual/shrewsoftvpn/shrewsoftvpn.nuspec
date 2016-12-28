@@ -16,6 +16,7 @@
     The following package parameters can be set:
 
     * `/NODESK` - Do not create shortcut on desktop.
+    * `/NOMENU` - Do not create menu items.
     * `/STANDARD` - Install standard edition instead of professional.
     
     These parameters can be passed to the installer with the use of `-params`.
