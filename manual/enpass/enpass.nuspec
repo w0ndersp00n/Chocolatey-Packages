@@ -20,6 +20,7 @@
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
+    <packageSourceUrl>https://github.com/w0ndersp00n/Chocolatey-Packages/tree/master/manual/enpass</packageSourceUrl>
     <iconUrl>https://upload.wikimedia.org/wikipedia/en/1/1f/Enpass_for_Android_logo.png</iconUrl>
     <releaseNotes>https://www.enpass.io/release-notes/windowspc/</releaseNotes>
   </metadata>
