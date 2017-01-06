@@ -20,6 +20,7 @@
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
+    <packageSourceUrl>https://github.com/w0ndersp00n/Chocolatey-Packages/tree/master/manual/osfontpack</packageSourceUrl>
     <releaseNotes>https://github.com/texhex/OSFontPack/releases/</releaseNotes>
   </metadata>
   <files>
