@@ -11,7 +11,7 @@
     <summary>Enpass</summary>
     <description>Enpass takes care of all your life important credentials and online accounts in best way. All your data is secured offline on your device only, not on our servers. Enpass encrypts your data by AES 256 bit Encryption using open-source encryption engine SQLCipher to ensure maximum security with trust.</description>
     <projectUrl>https://www.enpass.io/downloads/</projectUrl>
-    <tags>enpass password security cloud googledrive dropbox webdav onedrive box local passwordmanager </tags>
+    <tags>enpass password security cloud googledrive dropbox webdav onedrive box local passwordmanager admin</tags>
     <copyright>© Sinew Software Systems</copyright>
     <licenseUrl>https://www.enpass.io/legal-end-user-license-agreement/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
