@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'Enpass'
-$url         = 'https://dl.sinew.in/windows/setup/5-5-3/Enpass_Setup.exe'
-$checksum    = 'cf9813d203a7660481eac723acdf0959860fc53eea6943097a4de7dd6c29cc33'
+$url         = 'https://dl.sinew.in/windows/setup/5-5-8-1/Enpass_5.5.8_Setup.exe'
+$checksum    = 'e8c4ab173b12dc71f7f7364fe2c78807d12a453f2f420468fdadb2a0db927fbf'
 
 $packageArgs = @{
   packageName            = $packageName

@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>enpass.install</id>
     <title>Enpass Password Manager</title>
-    <version>5.5.3</version>
+    <version>5.5.8</version>
     <authors>Sinew Software Systems</authors>
     <owners>alazare619 w0ndersp00n</owners>
     <summary>Enpass</summary>

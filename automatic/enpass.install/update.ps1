@@ -17,9 +17,10 @@ function global:au_GetLatest {
 
     $re  = $version -match "\d+(\.\d+)+"
 
-    $version = $Matches[0].Replace(".","-")
+	$version = $Matches[0]
+    $versionUrl = $Matches[0].Replace(".","-")
 
-    $url = "https://dl.sinew.in/windows/setup/"+$version+"/Enpass_Setup.exe"
+    $url = "https://dl.sinew.in/windows/setup/"+$versionUrl+"/Enpass_"+$version+"_Setup.exe"
 
     return @{ URL = $url; Version = $version.Replace("-",".") }
 }
