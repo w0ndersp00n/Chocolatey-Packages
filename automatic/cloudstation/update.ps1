@@ -14,7 +14,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
 
-    $version = $download_page.ParsedHtml.getElementsByTagName('h1')[0].innerHTML
+    $version = $download_page.ParsedHtml.getElementsByTagName('h4')[0].innerHTML
 
     $re  = $version -match "[0-9.-]*$"
     $version = $Matches[0]
