@@ -13,14 +13,14 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
-    $version = $download_page.ParsedHtml.documentElement.getElementsByTagName('h2')[0].innerHTML
+    $version = $download_page.ParsedHtml.documentElement.getElementsByTagName('h3')[0].innerHTML
 
     $re  = $version -match "\d+(\.\d+)+"
 
 	$version = $Matches[0]
     $versionUrl = $Matches[0].Replace(".","-")
 
-    $url = "https://dl.sinew.in/windows/setup/"+$versionUrl+"/Enpass_"+$version+"_Setup.exe"
+    $url = "https://dl.sinew.in/windows/setup/"+$versionUrl+"-0/Enpass_"+$version+"_Setup.exe"
 
     return @{ URL = $url; Version = $version.Replace("-",".") }
 }
