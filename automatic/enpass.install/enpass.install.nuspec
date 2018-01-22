@@ -5,9 +5,9 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>enpass.install</id>
     <title>Enpass Password Manager</title>
-    <version>5.6.0</version>
+    <version>5.6.5</version>
     <authors>Sinew Software Systems</authors>
-    <owners>alazare619 w0ndersp00n</owners>
+    <owners>alazare619 w0ndersp00n royvou</owners>
     <summary>Enpass</summary>
     <description>Enpass takes care of all your life important credentials and online accounts in best way. All your data is secured offline on your device only, not on our servers. Enpass encrypts your data by AES 256 bit Encryption using open-source encryption engine SQLCipher to ensure maximum security with trust.</description>
     <projectUrl>https://www.enpass.io/downloads/</projectUrl>
