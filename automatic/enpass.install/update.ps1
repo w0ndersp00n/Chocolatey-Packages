@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://www.enpass.io/release-notes/windowspc/'
+$releases = 'https://www.enpass.io/downloads/'
 
 function global:au_SearchReplace {
     @{
@@ -20,7 +20,8 @@ function global:au_GetLatest {
 	$version = $Matches[0]
     $versionUrl = $Matches[0].Replace(".","-")
 
-    $url = "https://dl.sinew.in/windows/setup/"+$versionUrl+"-0/Enpass_"+$version+"_Setup.exe"
+    $url = $download_page.ParsedHtml.getElementById('web_windows_desktop') | ForEach-Object { $_.getElementsByTa
+gName('a') } | Where-Object { $_.className -eq 'btn btn_enpass_line btn_enpass_color' } |  Select-Object -Expand href
 
     return @{ URL = $url; Version = $version.Replace("-",".") }
 }
