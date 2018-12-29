@@ -13,12 +13,8 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases
-    # $version = $download_page.ParsedHtml.documentElement.getElementsByTagName('h3')[0].innerHTML
 
-    # $versionUrl = $Matches[0].Replace(".","-")
-
-    $url = $download_page.ParsedHtml.getElementById('web_windows_desktop') | ForEach-Object { $_.getElementsByTa
-gName('a') } | Where-Object { $_.className -eq 'btn btn_enpass_line btn_enpass_color' } |  Select-Object -Expand href
+    $url = $download_page.ParsedHtml.getElementById('web_windows_desktop') | ForEach-Object { $_.getElementsByTagName('a') } | Where-Object { $_.className -eq 'btn btn_enpass_line btn_enpass_color' } |  Select-Object -Expand href
 
     $version  = $url -match "\d+(\.\d+)+"
     $version = $Matches[0]
