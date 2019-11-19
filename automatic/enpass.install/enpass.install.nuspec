@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>enpass.install</id>
     <title>Enpass Password Manager</title>
-    <version>6.0.0.230</version>
+    <version>6.3.0.579</version>
     <authors>Sinew Software Systems</authors>
     <owners>w0ndersp00n alazare619 royvou</owners>
     <summary>Enpass</summary>
     <description>Enpass takes care of all your life important credentials and online accounts in best way. All your data is secured offline on your device only, not on our servers. Enpass encrypts your data by AES 256 bit Encryption using open-source encryption engine SQLCipher to ensure maximum security with trust.</description>
     <projectUrl>https://www.enpass.io/downloads/</projectUrl>
-    <tags>enpass password security cloud googledrive dropbox webdav onedrive box local passwordmanager admin</tags>
+    <tags>password security cloud googledrive dropbox webdav onedrive box local passwordmanager admin</tags>
     <copyright>© Sinew Software Systems</copyright>
     <licenseUrl>https://www.enpass.io/legal-end-user-license-agreement/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/__NAME__.png</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
     <packageSourceUrl>https://github.com/w0ndersp00n/Chocolatey-Packages/tree/master/automatic/enpass.install</packageSourceUrl>
     <iconUrl>https://upload.wikimedia.org/wikipedia/en/1/1f/Enpass_for_Android_logo.png</iconUrl>
     <releaseNotes>https://www.enpass.io/release-notes/windowspc/</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
