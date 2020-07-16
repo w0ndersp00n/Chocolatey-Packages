@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'cloudstation'
-$url         = 'https://global.download.synology.com/download/Tools/CloudStationDrive/4.2.5-4396/Windows/Installer/Synology%20Cloud%20Station%20Drive-4.2.5-4396.msi'
-$checksum    = 'c913624f1636c62a15652836770654c5151766c91bc7f199af3f3467a0893b5c'
+$url         = 'https://global.download.synology.com/download/Tools/CloudStationDrive/4.3.3-4469/Windows/Installer/Synology%20Cloud%20Station%20Drive-4.3.3-4469.msi'
+$checksum    = 'CDAB62232B9151C2236282617445E487592FF830AC647A4F307548CA62B875D7'
 
 $packageArgs = @{
   packageName            = $packageName
